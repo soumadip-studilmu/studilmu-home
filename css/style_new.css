@@ -3194,3 +3194,6 @@ span.number:before {
 .business .another_contact {
     margin-bottom: 0;
 }
+.faq_container .faq_top .faq_heading h3 {
+    margin-top: 0;
+}
