@@ -1214,7 +1214,7 @@ footer.footer .footer_bottom p a:hover {
     width: 100%;
     position: relative;
     font-size: 24px;
-    color: #05299e;
+    color: #3D52A0;
     padding-left: 86px;
 }
 
@@ -1382,6 +1382,7 @@ footer.footer .footer_bottom p a:hover {
     text-align: left;
     margin-top: 30px;
     margin-bottom: 10px;
+    color: #3D52A0;
 }
 
 .facts .fact_box p {
@@ -1481,7 +1482,7 @@ footer.footer .footer_bottom p a:hover {
     font-size: 36px;
     font-weight: 500;
     margin-top: 0;
-    margin-bottom: 23px;
+    margin-bottom: 15px;
     text-align: center;
 }
 
@@ -1493,7 +1494,7 @@ footer.footer .footer_bottom p a:hover {
     float: left;
     width: 100%;
     border-radius: 30px;
-    padding: 25px;
+    padding: 15px;
     text-align: center;
     box-shadow: 0px 0px 52px -30px #000000b0;
     margin-bottom: 30px;
@@ -1514,15 +1515,15 @@ footer.footer .footer_bottom p a:hover {
 }
 
 .values .value_box h3 {
-    font-size: 24px;
-    min-height: 55px;
-    padding: 0 31px;
+    font-size: 21px;
+    /* min-height: 55px; */
+    padding: 0 0px;
 }
 
 .values .value_box p {
     color: #626262;
-    font-size: 16px;
-    min-height: 184px;
+    font-size: 15px;
+    min-height: 166px;
     float: left;
     width: 100%;
 }
@@ -2605,8 +2606,8 @@ span.number:before {
 .career_bottom .left_box .no_job img {
     width: 100px;
     border: 2px solid #ffffff;
-    border-radius: 50%;
-    background: #fff;
+    border-radius: 30px;
+    background: #35488c;
     margin-bottom: 15px;
     height: 100px;
     padding: 3px;
