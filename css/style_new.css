@@ -2256,7 +2256,7 @@ span.number:before {
     padding: 25px;
 }
 
-.bg_color1 {
+/* .bg_color1 {
     background: #05299e;
 }
 
@@ -2265,6 +2265,17 @@ span.number:before {
 }
 .bg_color3 {
     background: #ff69b4;
+} */
+
+.bg_color1 {
+    background: #175590;
+}
+
+.bg_color2 {
+    background: #0582d2;
+}
+.bg_color3 {
+    background: #61afb9;
 }
 
 .partner_container .partner_box .partner_image {
