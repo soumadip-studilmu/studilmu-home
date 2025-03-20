@@ -5,75 +5,79 @@
 /**/
 
 .header_right .category a.cat_hed {
-    background: linear-gradient(to top, #3D52A0, #7091E6);
+    background: #0365b1;
     color: #fff;
     border: 0;
 }
 
 .slider.custom_slider button.slide-arrow {
-    background: linear-gradient(to top, #3D52A0, #7091E6);
+    background: #0365b1;
     color: #fff;
     border: 0;
 }
 
 .about .about_box {
-    background: linear-gradient(to bottom, #8697C4, #35488c, #334586);
+    background: linear-gradient(to bottom, #084b7c, #0365b1);
     box-shadow: 0px 0px 13px -3px #00000069;
 }
+.about .about_box .about_box_inner p {
+    color: #222222;
+}
 
+.featured h1 {
+    color: #084b7c;
+}
 .about .about_box .about_box_text h3, .about .about_box .about_box_text p {
     color: #fff;
 }
 
 .about .about_box .about_box_inner .about_icon {
-    background: #3D52A0;
+    background: #e30300;
     border: 0;
 }
 
 .about .about_box .about_box_inner h4 {
-    color: #7091E6;
+    color: #084b7c;
 }
 
 .featured {
     background: #EDE8F5;
 }
 
-.featured h1 {
-    color: #3D52A0;
-}
 
 .featured .featured_box_container .featured_box a {
-    background: linear-gradient(to top, #3D52A0, #7091E6);
+    background: #ffffff;
     border: 1px solid #fff;
-    color: #fff;
+    color: #222222;
 }
 
 .testimonial h1 {
-    color: #3D52A0;
+    color: #084b7c;
 }
 
 .testimonial .video_testimonial .owl-nav button.owl-prev, .testimonial .video_testimonial .owl-nav button.owl-next {
-    background: linear-gradient(to top, #3D52A0, #7091E6);
+    background: #0365b1;
     color: #fff;
 }
 
 .testimonial .video_testimonial .see_all_button {
-    background: linear-gradient(to top, #3D52A0, #7091E6);
+    background: #0365b1;
     color: #fff;
+    border: 2px solid #fff;
 }
 
 .testimonial .text_testimonial .owl-nav button.owl-prev, .testimonial .text_testimonial .owl-nav button.owl-next {
-    background: linear-gradient(to top, #3D52A0, #7091E6);
+    background: #0365b1;
     color: #fff;
 }
 
 .testimonial .text_testimonial .text .text_inner .author {
-    background: linear-gradient(to left, #8697C4, #35488c, #334586);
+    background: linear-gradient(to right, #e30300, #de5c61);
     color: #fff;
 }
 
 .training .training_container .training_text {
-    background: linear-gradient(to bottom, #8697C4, #35488c, #334586);
+    background: linear-gradient(to top, #084b7c, #0365b1);
 }
 
 .training .training_container .training_text h1 {
@@ -85,122 +89,149 @@
 }
 
 .training {
-    background: #EDE8F5;
+    background: #d5eafb;
 }
 
 .training .training_container .training_slider .owl-nav button.owl-prev, .training .training_container .training_slider .owl-nav button.owl-next {
-    background: linear-gradient(to top, #3D52A0, #7091E6);
+    background: #0365b1;
     color: #fff;
 }
 
 .training .training_container .training_slider .training_image {
-    border: 4px solid #3d52a0;
+    border: 4px solid #de5c61;
 }
 
 footer.footer {
-    background: linear-gradient(to bottom, #8697C4, #35488c, #334586);
+    background: linear-gradient(to bottom, #084b7c, #0365b1);
 }
 
 .contact .contact_inner a {
-    background: linear-gradient(to top, #3D52A0, #7091E6);
+    background: #de5c61;
     color: #fff;
 }
 
 /*==About page==*/
 .about_inner_page .about_details h4 {
-    color: #3D52A0;
+    color: #084b7c;
 }
 
-.about_inner_page .about_details h3 span {
-    color: #3D52A0;
+.about_inner_page .about_details h3 {
+    color: #084b7c;
 }
-
+.about_inner_page .about_details h4:before{
+    background: #084b7c;
+}
 .another_contact {
-    background: linear-gradient(to bottom, #8697C4, #35488c, #334586);
+    background: linear-gradient(to right, #084b7c, #0365b1);
 }
 
 .another_contact .right .btn-contact {
-    background: linear-gradient(to top, #3D52A0, #7091E6);
+    background: #de5c61;
     color: #fff;
     border: 1px solid #fff;
 }
 
 .facts h4 {
-    color: #3D52A0;
+    color: #084b7c;
 }
 
-.facts h3 span {color: #3D52A0;}
+.facts h3{color: #084b7c;}
 
 .small_banner .page_heading h1 {
-    background: #35488c;
+    background: #0365b1;
 }
 
 .facts .fact_box {
-    border: 2px solid #3D52A0;
+    border: 2px solid #0365b1;
 }
 
-.facts .fact_box .fact_icon {border: 2px solid #3D52A0;}
+.facts .fact_box .fact_icon {border: 2px solid #0365b1;}
 
 .facts .fact_box h3 {
-    color: #3D52A0;
+    color: #084b7c;
 }
 
 .facts .fact_box_full .right {
-    background: #3D52A0;
+    background: linear-gradient(to right, #084b7c, #0365b1);
 }
 
 .values h4 {
-    color: #3D52A0;
+    color: #084b7c;
 }
 
-.values h3 span {
-    color: #3D52A0;
+.values h3 {
+    color: #084b7c;
+}
+.news_inner h4 {
+    color: #084b7c;
+}
+
+.news_inner h3 {
+    color: #084b7c;
 }
 
 /* Apply page */
 .apply_form {
-    background: linear-gradient(to left, #8697C4, #35488c, #334586);
+    background: linear-gradient(to right, #084b7c, #0365b1);
 }
 
 .more {
-    background: linear-gradient(to top, #3D52A0, #7091E6);
+    background:#de5c61;
     color: #fff;
     border: 0;
 }
 
 /* Business page */
-.top_client_slider .slider_inner .owl-carousel .owl-nav button.owl-prev,.top_client_slider .slider_inner .owl-carousel .owl-nav button.owl-next {
-    background: linear-gradient(to bottom, #8697C4, #35488c, #334586);
+.top_client_slider h3 {
+    color: #084b7c;
 }
 
 .step_one .right_info_text h3 {
-    color: #3D52A0;
+    color: #084b7c;
+}
+
+.step_one .right_info_text p {
+    color: #222222;
+}
+.top_client_slider .slider_inner .owl-carousel .owl-nav button.owl-prev,.top_client_slider .slider_inner .owl-carousel .owl-nav button.owl-next {
+    background: #0365b1;
+}
+
+.business .another_contact {
+    background: #de5c61;
+}
+
+.business .another_contact .btn-contact {
+    background: #0365b1;
 }
 
 .step_one .right_info_text .more_text {
-    background: linear-gradient(to bottom, #8697C4, #35488c, #334586);
+    background: #fff;
 }
-
+.step_one .right_info_text .more_text ul li {
+    color: #222222;
+}
 .step_one .right_info_text .more_text h4 {
-    background: #eee8f6;
+    background: linear-gradient(to right, #084b7c, #0365b1);
+    color:#fff;
 }
 
 .information_container .form_box h3 {
-    background: linear-gradient(to bottom, #8697C4, #35488c, #334586);
+    background: #084b7c;
     color: #fff;
 }
 
 .information_container .form_box {
-    background: #eef1ff;
+    background: #3b3b3b;
 }
 
 .information_container .form_box form .form-group label {
-    color: #3D52A0;
+    color: #fff;
 }
 
 /* career_details page */
 .career_details {
-    background: linear-gradient(to bottom, #8697C4, #35488c, #334586);
+    background: linear-gradient(to right, #084b7c, #0365b1);
 }
 
 .career_details .detials_block .more {
@@ -213,19 +244,19 @@ footer.footer {
 
 /* Career page */
 .career_container .right h4 {
-    color: #3D52A0;
+    color: #084b7c;
 }
 
 .career_container .right h4:before {
-    background: #3D52A0;
+    background: #084b7c;
 }
 
 .career_container .left {
-    border: 5px solid #3D52A0;
+    border: 5px solid #0365b1;
 }
 
-.career_bottom h3 span {
-    color: #3D52A0;
+.career_bottom h3 {
+    color: #084b7c;
 }
 
 .career_bottom .left_box {
@@ -238,7 +269,7 @@ footer.footer {
 
 
 .career_bottom .right_box .bottom_box {
-    background: linear-gradient(to bottom, #8697C4, #35488c, #334586);
+    background: linear-gradient(to right, #084b7c, #0365b1);
 }
 
 .career_bottom .right_box .bottom_box .more {
@@ -247,55 +278,59 @@ footer.footer {
 
 /* contact Us */
 .contact_info h4 {
-    color: #3D52A0;
+    color: #084b7c;
 }
 
-.contact_info h3 span {
-    color: #3D52A0;
+.contact_info h3 {
+    color: #084b7c;
 }
 
 .contact_info h4:before {
-    background: #3D52A0;
+    background: #084b7c;
 }
 
 .contact_info .contact_block i {
-    color: #3D52A0;
+    color: #084b7c;
 }
-
+.contact_bottom{
+    background: linear-gradient(to right, #084b7c, #0365b1);
+}
 .contact_bottom .contact_form form .form-group label {
-    color: #3D52A0;
+    color: #fff;
 }
 
 .contact_bottom .contact_form form .btn-submit {
-    background: linear-gradient(to top, #3D52A0, #7091E6);
+    background: #de5c61;
     color: #fff;
     border: 0;
 }
 .contact_bottom .contact_form h4 {
-    color: #3D52A0;
+    color: #fff;
 }
 
 .contact_bottom .contact_form h4:before {
-    background: #3D52A0;
+    background: #fff;
 }
 
 /* FAQ page */
 .faq_container .faq_top .faq_heading h3 {
-    background: linear-gradient(to top, #3D52A0, #7091E6);
+    background: #084b7c;
 }
 
 .faq_container .faq_bottom {
-    background: linear-gradient(to top, #3D52A0, #7091E6);
+    background: linear-gradient(to right, #084b7c, #0365b1);
 }
 
 .faq_container .faq_bottom .faq_block .list_no {
-    background: #3D52A0;
+    background: #e30300;
     color: #fff;
     border: 1px solid #fff;
 }
 
 /* Partners page */
-
+.partner_container h3 {
+    color: #084b7c;
+}
 .news_inner h4 h4 {
     color: #3D52A0;
 }
@@ -310,24 +345,24 @@ footer.footer {
 
 /* Press release page */
 .news_sidebar .bottom {
-    background: linear-gradient(to bottom, #8697C4, #35488c, #334586);
+    background: linear-gradient(to right, #084b7c, #0365b1);
 }
 
 .n_bx:nth-child(1) .news_box .top, .n_bx:nth-child(4) .news_box .top, .n_bx:nth-child(7) .news_box .top {
-    background-color: #3d52a1;
+    background-color: #084b7c;
 }
 
 .n_bx:nth-child(2) .news_box .top, .n_bx:nth-child(5) .news_box .top, .n_bx:nth-child(8) .news_box .top {
-    background-color: #7191e6;
+    background-color: #0365b0;
 }
 
 .n_bx:nth-child(3) .news_box .top, .n_bx:nth-child(6) .news_box .top, .n_bx:nth-child(9) .news_box .top {
-    background-color: #8697c3;
+    background-color: #de5c61;
 }
 /* Press release details page */
 
 .news_inner .details_top {
-    background: linear-gradient(to bottom, #8697C4, #35488c, #334586);
+    background: linear-gradient(to right, #084b7c, #0365b1);
 }
 
 .news_inner .details_top .right .right_bottom .more {
@@ -335,35 +370,35 @@ footer.footer {
 }
 
 .details_bottom h5 {
-    background: #3D52A0;
+    background: #084b7c;
 }
 
 .policy .policy_body {
-    background: linear-gradient(to bottom, #8697C4, #35488c, #334586);
+    background: linear-gradient(to right, #084b7c, #0365b1);
 }
 
 .map_block {
-    background: linear-gradient(to bottom, #8697C4, #35488c, #334586);
+    background: linear-gradient(to right, #084b7c, #0365b1);
 }
 
 .map_block h4 {
-    background: #3D52A0;
+    background: #de5c61;
     color: #fff;
 }
 
 .blue {
-    background: #175590;
+    background: #084b7c;
 }
 
 .purple {
-    background: #0582d2;
+    background: #0365b1;
 }
 
 .pink {
-    background: #61afb9;
+    background: #e30300;
 }
 
 .brown {
-    background: #7ab3d6;
+    background: #de5c61;
 }
 

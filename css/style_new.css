@@ -36,6 +36,7 @@ ul {
     float: left;
     width: 100%;
     position: relative;
+    padding-top: 5px;
 }
 
 .logo {
@@ -1059,23 +1060,23 @@ footer.footer .footer_box ul.footer_list li a i {
 }
 
 footer.footer .footer_box ul.footer_list li a:hover {
-    color: #ffe456;
+    color: #de5c61;
 }
 
 footer.footer .footer_bottom p a:hover {
-    color: #ffe456;
+    color: #de5c61;
 }
 
 #back-to-top {
     position: fixed;
     bottom: 100px;
-    right: 140px;
+    right: 40px;
     z-index: 9999;
     width: 40px;
     height: 40px;
     text-align: center;
     line-height: 38px;
-    color: #000;
+    color: #fff;
     cursor: pointer;
     border: 0;
     border-radius: 10px;
@@ -1083,12 +1084,12 @@ footer.footer .footer_bottom p a:hover {
     transition: opacity .2s ease-out;
     opacity: 0;
     box-shadow: 0 0 16px -2px #000000a8;
-    background: rgb(255, 127, 80);
-    background: linear-gradient(90deg, rgba(255, 127, 80, 1) 21%, rgba(255, 215, 0, 1) 65%, rgba(255, 248, 225, 1) 100%);
+    background: rgb(232 44 41);
+    /* background: linear-gradient(90deg, rgba(255, 127, 80, 1) 21%, rgba(255, 215, 0, 1) 65%, rgba(255, 248, 225, 1) 100%); */
 }
 
 #back-to-top:hover {
-    background: linear-gradient(0deg, rgba(255, 127, 80, 1) 21%, rgba(255, 215, 0, 1) 65%, rgba(255, 248, 225, 1) 100%);
+    background: rgb(232 44 41);
 }
 
 #back-to-top.show {
@@ -1099,23 +1100,23 @@ footer.footer .footer_bottom p a:hover {
 /* ======All button hover css======= */
 
 .header_right .category a.cat_hed:hover {
-    background: linear-gradient(0deg, rgba(255, 127, 80, 1) 21%, rgba(255, 215, 0, 1) 65%, rgba(255, 248, 225, 1) 100%);
+    background: #084b7c;
 }
 
 .slider.custom_slider button.slide-arrow:hover {
-    background: linear-gradient(0deg, rgba(255, 127, 80, 1) 21%, rgba(255, 215, 0, 1) 65%, rgba(255, 248, 225, 1) 100%);
+    background: #084b7c;
 }
 
 .owl-nav button:hover {
-    background: linear-gradient(0deg, rgba(255, 127, 80, 1) 21%, rgba(255, 215, 0, 1) 65%, rgba(255, 248, 225, 1) 100%) !important;
+    background: #084b7c !important;
 }
 
 .testimonial .video_testimonial .see_all_button:hover {
-    background: linear-gradient(0deg, rgba(255, 127, 80, 1) 21%, rgba(255, 215, 0, 1) 65%, rgba(255, 248, 225, 1) 100%);
+    background:#084b7c;
 }
 
 .contact .contact_inner a:hover {
-    background: linear-gradient(0deg, rgba(255, 127, 80, 1) 21%, rgba(255, 215, 0, 1) 65%, rgba(255, 248, 225, 1) 100%);
+    background: #084b7c;
 }
 
 
@@ -1143,7 +1144,7 @@ footer.footer .footer_bottom p a:hover {
     top: 0;
     width: 100%;
     height: 100%;
-    background: #00000082;
+    background: #000000ad;
     z-index: 2;
 }
 
@@ -1159,7 +1160,7 @@ footer.footer .footer_bottom p a:hover {
     display: inline-block;
     background: #05299e;
     color: #ffffff;
-    font-size: 39px;
+    font-size: 51px;
     font-weight: bold;
     border-radius: 30px;
     padding: 7px 15px;
@@ -1167,6 +1168,13 @@ footer.footer .footer_bottom p a:hover {
 }
 
 /* About inner section */
+.facts p {
+    text-align: center;
+    float: left;
+    width: 100%;
+    font-size: 18px;
+    color: #222222;
+}
 .about_inner_page {
     float: left;
     width: 100%;
@@ -1242,7 +1250,7 @@ footer.footer .footer_bottom p a:hover {
 }
 
 .about_inner_page .about_details p {
-    color: #666666;
+    color: #222222;
     font-size: 19px;
     float: left;
     width: 100%;
@@ -1282,7 +1290,7 @@ footer.footer .footer_bottom p a:hover {
     color: #ffffff;
     font-size: 18px;
     float: left;
-    width: 100%;
+    width: 94%;
 }
 
 .another_contact .right {
@@ -1388,8 +1396,9 @@ footer.footer .footer_bottom p a:hover {
 .facts .fact_box p {
     float: left;
     width: 100%;
-    color: #757575;
+    color: #222222;
     font-size: 18px;
+    text-align: left;
 }
 
 .facts .fact_box_full {
@@ -1706,7 +1715,7 @@ footer.footer .footer_bottom p a:hover {
 }
 
 .contact_info .contact_block .info_block h5 {
-    color: #3d3d3d;
+    color: #084b7c;
     font-size: 25px;
     float: left;
     width: 100%;
@@ -1715,13 +1724,13 @@ footer.footer .footer_bottom p a:hover {
 }
 
 .contact_info .contact_block .info_block span {
-    color: #5a5a5a;
+    color: #222222;
     float: left;
     width: 100%;
     font-size: 18px;
 }
 .contact_info .contact_block .info_block span a {
-    color: #5a5a5a;
+    color: #222222;
 }
 
 .contact_bottom {
@@ -1760,12 +1769,22 @@ footer.footer .footer_bottom p a:hover {
     color: #000;
     text-align: center;
 }
-
 .contact_bottom .contact_form h4:before {
     position: relative;
     content: "";
-    left: 0;
-    background: #000000;
+    left: 0px;
+    background: #ffffff;
+    width: 70px;
+    height: 3px;
+    top: -9px;
+    display: inline-block;
+    margin-right: 15px;
+}
+.contact_bottom .contact_form h4:after {
+    position: relative;
+    content: "";
+    left: 20px;
+    background: #ffffff;
     width: 70px;
     height: 3px;
     top: -9px;
@@ -1803,7 +1822,7 @@ footer.footer .footer_bottom p a:hover {
     border: 0;
     padding: 14px;
     color: #000;
-    background: #e9e9e9;
+    background: #ffffff;
 }
 
 .contact_bottom .contact_form form .form-group input[type="email"] {
@@ -1813,7 +1832,7 @@ footer.footer .footer_bottom p a:hover {
     border: 0;
     padding: 14px;
     color: #000;
-    background: #e9e9e9;
+    background: #ffffff;
 }
 
 .contact_bottom .contact_form form .form-group textarea {
@@ -1824,7 +1843,7 @@ footer.footer .footer_bottom p a:hover {
     padding: 14px;
     color: #000;
     height: 150px;
-    background: #e9e9e9;
+    background: #ffffff;
 }
 .contact_bottom .contact_form form .btn-submit {
     font-size: 18px;
@@ -1874,6 +1893,7 @@ footer.footer .footer_bottom p a:hover {
     top: -6px;
     position: relative;
     margin-right: 16px;
+    display: none;
 }
 
 .news_inner  h3 {
@@ -1925,7 +1945,7 @@ span.number:before {
 .news_box .bottom {
     width: 84%;
     display: inline-block;
-    background: #3c3e42;
+    background: #c0c0c0;
     border-radius: 15px;
     position: relative;
     z-index: 1;
@@ -1976,12 +1996,13 @@ span.number:before {
     font-size: 18px;
     margin: 15px 0;
     min-height: 110px;
+    font-weight: 500;
 }
 .news_box .bottom p {
     float: left;
     width: 100%;
     margin-bottom: 0;
-    color: #ffffff;
+    color: #000;
     font-size: 16px;
 }
 
@@ -2062,6 +2083,7 @@ span.number:before {
     font-size: 16px;
     border-bottom: 1px solid #ccc;
     padding: 5px;
+    font-weight: 500;
 }
 
 .news_sidebar .bottom ul li:last-child a {
@@ -2268,14 +2290,14 @@ span.number:before {
 } */
 
 .bg_color1 {
-    background: #175590;
+    background: #084b7c;
 }
 
 .bg_color2 {
-    background: #0582d2;
+    background: #0365b1;
 }
 .bg_color3 {
-    background: #61afb9;
+    background: #de5c61;
 }
 
 .partner_container .partner_box .partner_image {
@@ -2350,7 +2372,7 @@ span.number:before {
 }
 
 .career_container .right p {
-    color: #676767;
+    color: #222222;
     float: left;
     width: 100%;
     font-size: 20px;
@@ -2646,7 +2668,7 @@ span.number:before {
 }
 
 .apply_form form .right_form {
-    background: #5f5f5f;
+    background: #f1f3fc;
     padding: 20px;
 }
 
@@ -2664,7 +2686,13 @@ span.number:before {
     border-bottom: 1px solid #fff;
     padding-bottom: 5px;
 }
-
+.apply_form form .right_form h3 {
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+.apply_form form .right_form label {
+    color: #222222;
+}
 .apply_form .form-group {
     float: left;
     width: 100%;
@@ -2909,7 +2937,7 @@ span.number:before {
 .policy .policy_top {
     width: 95%;
     display: inline-block;
-    background: #3c3e42;
+    background: #d5edff;
     border-radius: 15px;
     position: relative;
     z-index: 1;
@@ -2937,7 +2965,7 @@ span.number:before {
     float: left;
     width: 100%;
     padding: 0 20px;
-    color: #fff;
+    color: #000000;
 }
 
 .policy .policy_body div {
@@ -2974,7 +3002,7 @@ span.number:before {
 .top_client_slider h3 {
     float: left;
     width: 100%;
-    font-size: 33px;
+    font-size: 29px;
     font-weight: 600;
     margin-top: 0;
     margin-bottom: 30px;
@@ -3095,7 +3123,7 @@ span.number:before {
     color: #5a5a5a;
     float: left;
     width: 100%;
-    font-size: 21px;
+    font-size: 17px;
 }
 .step_one .right_info_text .more_text {
     float: left;
@@ -3135,7 +3163,7 @@ span.number:before {
 }
 
 .step_one .right_info_text .more_text  p {
-    color: #ffffff;
+    color: #222222;
     padding: 0 20px;
 }
 
