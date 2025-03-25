@@ -551,7 +551,7 @@ ul {
     position: relative;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    height: 650px;
+    /* height: 650px; */
     background-size: cover;
 }
 
@@ -590,18 +590,23 @@ ul {
 
 .testimonial .video_testimonial .video .video_box_container {
     float: left;
-    width: 90%;
+    width: 100%;
     background: #ffffff;
     border-radius: 30px;
     overflow: hidden;
     display: flex;
     align-items: center;
     box-shadow: 0px 4px 7px -3px #000000c2;
+    border: 2px solid #084b7c;
+    flex-direction: column;
+    padding: 15px;
 }
 
 .testimonial .video_testimonial .video .video_box_container .video_box_inner {
     float: left;
-    width: 50%;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .testimonial .video_testimonial .video .video_box_container .video_box_inner iframe {
@@ -613,14 +618,15 @@ ul {
 
 .testimonial .video_testimonial .video .video_box_container .video_details_box {
     float: left;
-    width: 50%;
-    padding: 20px;
+    width: 100%;
+    padding: 10px;
 }
 
 .testimonial .video_testimonial .video .video_box_container .video_details_box .video_description {
-    font-size: 19px;
+    font-size: 17px;
     color: #000;
     font-weight: 500;
+    min-height: 72px;
 }
 
 .testimonial .video_testimonial .owl-dots {
@@ -649,12 +655,12 @@ ul {
     line-height: 16px;
 }
 
-.testimonial .video_testimonial .owl-carousel {
+/* .testimonial .video_testimonial .owl-carousel {
     padding-left: 35px;
-}
+} */
 
 .testimonial .video_testimonial .owl-nav button.owl-next {
-    right: 28px;
+    right: 0px;
     z-index: 999;
     background: rgb(255, 127, 80);
     background: linear-gradient(90deg, rgba(255, 127, 80, 1) 21%, rgba(255, 215, 0, 1) 65%, rgba(255, 248, 225, 1) 100%);
@@ -686,11 +692,11 @@ ul {
 /* ======Text Testimonial==== */
 
 .testimonial .text_testimonial {
-    float: left;
-    width: 100%;
+    margin:0 auto;
     position: relative;
     z-index: 10;
     margin-bottom: 15px;
+    max-width:760px;
 }
 
 .testimonial .text_testimonial .owl-carousel .owl-stage-outer {
@@ -698,13 +704,13 @@ ul {
 }
 
 .testimonial .text_testimonial .owl-carousel {
-    padding-left: 34px;
+    /* padding-left: 34px; */
     padding-top: 35px;
 }
 
 .testimonial .text_testimonial .text {
     float: left;
-    width: 90%;
+    width: 100%;
     background: #ffffff;
     border-radius: 30px;
     box-shadow: 0px 4px 7px -3px #000000c2;
@@ -768,7 +774,7 @@ ul {
 }
 
 .testimonial .text_testimonial .owl-nav button.owl-next {
-    right: 28px;
+    right: 0px;
     z-index: 999;
     background: rgb(255, 127, 80);
     background: linear-gradient(90deg, rgba(255, 127, 80, 1) 21%, rgba(255, 215, 0, 1) 65%, rgba(255, 248, 225, 1) 100%);
@@ -1002,7 +1008,7 @@ footer.footer .footer_box ul.social li.tiktok a img {
 
 footer.footer .footer_box h4 {
     color: #ffffff;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 25px;
     float: left;
     width: 100%;
@@ -1129,7 +1135,7 @@ footer.footer .footer_bottom p a:hover {
     width: 100%;
     position: relative;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .small_banner img {
@@ -3236,6 +3242,67 @@ span.number:before {
 }
 .faq_container .faq_top .faq_heading h3 {
     margin-top: 0;
+}
+
+/* ==== */
+.header .header_bottom {
+    float: left;
+    width: 100%;
+    background: linear-gradient(to right, #084b7c, #0365b1);
+    padding: 5px 0;
+}
+
+.header .header_bottom ul.social {
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.header .header_bottom ul {
+    float: left;
+    margin-top: 11px;
+    margin-bottom: 0;
+}
+
+.header .header_bottom ul li {
+    display: inline-block;
+}
+
+.header .header_bottom ul li {
+    float: left;
+    margin-right: 15px;
+}
+
+.header .header_bottom ul li a {
+    float: left;
+    color: #ffffff;
+    border-right: 1px solid #ffffff;
+    padding-right: 10px;
+}
+
+.header .header_bottom ul li a h4 {
+    font-weight: normal;
+    margin: 0;
+}
+
+.header .header_bottom ul li:last-child a {
+    border-right: 0;
+}
+
+.header .header_bottom ul.social a {
+    border-right: 0;
+    padding-right: 0;
+    background: #ffffff;
+    border-radius: 6px;
+}
+
+.header .header_bottom ul.social a img {
+    width: 30px;
+    height: 30px;
+}
+
+.header .header_bottom ul.social li {
+    margin-right: 10px;
 }
 
 
